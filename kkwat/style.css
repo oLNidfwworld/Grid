@@ -47,7 +47,9 @@ header ul li:hover::after{
 }
 
 
-
+.info p{
+    padding-left: 10px;
+}
 
 .border{
     width: 93%;
@@ -203,4 +205,8 @@ p a{
     }
 
     
+}
+
+svg#Capa_1:hover path {
+    fill: red;
 }
