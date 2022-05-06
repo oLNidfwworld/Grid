@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+body{
+    background-color: rgb(160, 75, 239);
+}
+.container{ 
+    
+    margin:50px 150px;
+}
+
+.swiper {
+    /*border: solid 3px black;*/
+    width: 600px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.first .swiper-slide{
+    background-color: red;
+    text-align: center;
+}
+
+.first .swiper-slide:nth-child(4n+1){
+    background-color: blue;
+}
+
+.first .swiper-slide:nth-child(4n+2){
+    background-color: white;
+}
+.second .swiper-slide{
+    background:rgb(224, 102, 218);
+}
+
+.third .swiper-slide{
+    background:rgb(238, 207, 237);
+}
+
+
+.fourth .swiper-slide{
+    background:rgb(121, 181, 38);
+}
