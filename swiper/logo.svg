@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="лошадка цок цок.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="4.1877625"
+     inkscape:cx="107.45595"
+     inkscape:cy="54.444348"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <symbol
+       id="Stable">
+      <title
+         id="title5295">Stable</title>
+      <path
+         d="M 3.0427083,17.330208 H 16.66875 V 15.875 H 4.4979167 V 7.3421875 L 16.66875,2.6458333 V 1.190625 L 1.5875,7.0114583 V 8.4666667 L 3.0427083,7.9375 Z"
+         style="stroke:none;stroke-width:0.264583"
+         id="path5297" />
+      <path
+         d="M 12.038542,8.73125 14.84974,5.8208333 14.783594,6.5815104 16.205729,7.540625 C 16.43724,7.6729167 16.503385,7.9375 16.371094,8.1690104 16.271875,8.3674479 16.073437,8.4666667 15.875,8.4335937 L 15.742708,8.4005208 C 15.478125,9.128125 14.882812,9.4588542 14.221354,9.2934896 l -1.058333,2.1497394 v 2.976563 c 0,0.264583 -0.198438,0.496093 -0.463021,0.496093 -0.264583,0 -0.463021,-0.23151 -0.463021,-0.496093 V 11.377083 H 9.8557292 l -0.4630209,0.727604 0.9260417,2.116667 c 0.297656,0.661458 -0.5953125,0.992188 -0.8598958,0.396875 L 8.4666667,12.303125 v -0.79375 l -0.4630209,0.694531 v 2.202656 c 0,0.264584 -0.1984375,0.529167 -0.4630208,0.529167 -0.2645833,0 -0.4630208,-0.297656 -0.4630208,-0.529167 v -2.513541 l 0.396875,-0.628386 V 9.2802604 L 7.0776042,9.8094271 V 11.529219 H 6.35 V 9.8094271 c 0,-0.5291667 0.4960937,-1.0583334 1.0583333,-1.0583334 z m 2.711979,-0.5291667 -0.429948,0.8598959 c 0.562239,0.1322916 1.02526,-0.2976563 1.157552,-0.7276042 z"
+         style="stroke:none;stroke-width:0.264583"
+         id="path5299" />
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g54022"
+       transform="matrix(0.70105426,0,0,0.70105426,-6.0589569,-2.8753057)">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.702155;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect31"
+         width="30.99931"
+         height="25.995697"
+         x="11.573451"
+         y="9.965148" />
+      <use
+         xlink:href="#Stable"
+         style="fill:#000000;stroke:#000000"
+         id="use6428"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%"
+         transform="matrix(-1.0885774,0,0,1.0885774,39.643408,12.882315)" />
+      <rect
+         style="fill:none;stroke:#160a05;stroke-width:0.964999;stroke-linecap:round;stroke-opacity:1;paint-order:stroke fill markers"
+         id="rect33"
+         width="9.6498194"
+         height="25.554152"
+         x="11.704873"
+         y="10.096569" />
+      <text
+         xml:space="preserve"
+         style="font-size:3px;line-height:1.25;font-family:sans-serif;writing-mode:vertical-lr;stroke-width:0.219628"
+         x="16.140368"
+         y="10.856047"
+         id="text7795"
+         transform="scale(1.0154055,0.98482823)"><tspan
+           sodipodi:role="line"
+           id="tspan7793"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Schoolbook';-inkscape-font-specification:'Century Schoolbook';writing-mode:vertical-lr;stroke-width:0.219628"
+           x="10.856047"
+           y="16.140368">horse</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.13587px;line-height:1.25;font-family:sans-serif;writing-mode:tb-rl;stroke-width:0.0783969"
+         x="-28.437946"
+         y="14.20829"
+         id="text13295"
+         transform="matrix(0,-1.1687336,0.85562698,0,0,0)"><tspan
+           sodipodi:role="line"
+           id="tspan13293"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Broadway;-inkscape-font-specification:Broadway;stroke-width:0.0783969"
+           x="14.20829"
+           y="-28.437946">house</tspan></text>
+    </g>
+  </g>
+</svg>
