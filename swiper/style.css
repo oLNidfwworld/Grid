@@ -42,3 +42,41 @@ body{
 .fourth .swiper-slide{
     background:rgb(121, 181, 38);
 }
+.block{
+    color: wheat;
+    margin: auto 25%;
+    text-align: center;
+    width: 50%;
+    border-radius: 40px;
+    background: rgb(201,233,0);
+    background: linear-gradient(90deg, rgba(201,233,0,1) 0%, rgba(57,15,196,1) 65%, rgba(0,212,255,1) 100%);
+    box-shadow:  10px 10px 0px #c9e900,
+             -10px -10px 0px #00d4ff;
+             padding: 25px;
+}
+
+.flip-horizontal-bottom {
+	-webkit-animation: flip-horizontal-bottom 3s steps(120, start) 2s infinite both;
+	        animation: flip-horizontal-bottom 3s steps(120, start) 2s infinite both;
+}
+
+@-webkit-keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-180deg);
+              transform: rotateX(-180deg);
+    }
+  }
+  @keyframes flip-horizontal-bottom {
+    0% {
+      -webkit-transform: rotateX(0);
+              transform: rotateX(0);
+    }
+    100% {
+      -webkit-transform: rotateX(-180deg);
+              transform: rotateX(-180deg);
+    }
+  }
