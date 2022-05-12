@@ -12,6 +12,7 @@
     src: url(Recources/Fonts/RobotoCondensed-Regular.ttf); 
    }
 
+
 h2 {
     font-family: Roboto-Bold;
     font-style: normal;
@@ -192,4 +193,81 @@ header .blue-button{
 .copyright{
     display: flex;
     justify-content: space-between;
+}
+
+.catalog{
+    display: none;
+}
+
+.find-panel{
+    display: none;
+}
+
+.finder{
+    border-radius: 20px 0px 0px 20px;
+    height: 40px;
+    border: none;
+    background-color: rgba(243, 243, 243, 1);
+    padding-left: 10px;
+    outline: none;
+    color: rgb(72, 132, 34);
+}
+
+.finder::placeholder{
+    color: rgba(98, 181, 47, 1);
+
+}
+
+
+
+.submit{
+    background-color: rgba(243, 243, 243, 1);
+    outline: none;
+    border: none;
+    border-radius: 0px 20px 20px 0;
+}
+@media(min-width:480px){
+    .info{
+        height: 650px;
+    }
+    
+    .icon-find{
+        display: none;
+    }
+    
+
+    .find-panel{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu{
+        background-color: white;
+        border: solid 1px #1771F1;
+    }
+    .menu p{
+        color:#1771F1;
+    }
+
+    .first-row{
+        column-gap: 10px;
+        align-items: center;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 4fr 2fr 5fr 1fr 1fr 1fr;
+        margin-bottom: 15px;
+    }
+    .second-row{
+        column-gap: 10px;
+        align-items: center;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: 4fr 2fr  1fr 4fr;
+    }
+    .catalog{
+        display: block;
+    }
+}
+@media(min-width:720px){
+    
 }
