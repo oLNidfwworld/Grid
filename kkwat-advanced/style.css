@@ -60,7 +60,13 @@ footer{
     background-color: rgba(51, 46, 46, 1);
 }
 .wrap{
+    display: flex;
+}
+.wrap-page{
     padding: 0 10px;
+}
+aside{
+    display: none;
 }
 header .blue-button{
     
@@ -218,8 +224,17 @@ header .blue-button{
 
 }
 
+ul,ol{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    
+}
 
+.aside-panel-list{
+    position: fixed;  
 
+}
 .submit{
     background-color: rgba(243, 243, 243, 1);
     outline: none;
@@ -269,5 +284,16 @@ header .blue-button{
     }
 }
 @media(min-width:720px){
-    
+    aside{
+        min-width: 75px;
+        max-width: 75px;
+        display: block;
+        background-color: white;
+        position: sticky;  
+    }
+}
+.main{
+    padding: 0;
+    margin: 0;
+    border: none;
 }
