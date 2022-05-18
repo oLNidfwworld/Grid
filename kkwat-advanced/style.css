@@ -353,6 +353,15 @@ select{
     outline: none;
 
 }
+#menu-list.open{
+    display:inline-block;
+    position: absolute;
+    top:100px;
+    
+    background-color: white;
+    border: solid 1px #1771F1;
+    padding: 10px;
+}
 .header-buttons{
     display: flex;
     gap:10px;
