@@ -27,11 +27,13 @@ h3{
     font-family: Roboto-Regular;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    
     line-height: 19px;
 
     color: #332E2E;
 }
+
+
 
 h1 {
     font-family: Roboto-Bold;
@@ -82,18 +84,9 @@ footer{
 .wrap-page{
     padding: 0 10px;
 }
-.menu-list ul li::after{
-    content: '';
-    height: 2px;
-    width: 0;
-    background: black;
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    transition: 0.4s;
-}
-.menu-list ul li:hover::after{
-    width: 100%;
+
+.menu-list ul li h3:hover{
+    color: #0e4591;;
 }
 aside{
     display: none;
@@ -102,11 +95,22 @@ header .blue-button{
     
     border-radius: 0px 12px;
 }
+header .blue-button{
+    
+    border-radius: 0px 12px;
+}
+header .white-button{
+    
+    border-radius: 0px 12px;
+}
 .blue-button{
     background-color: #1771F1;
     border: 1px;
-    transition: 1s;
+    transition: 0.5s;
     padding: 15px;
+    cursor:pointer;
+    
+    border: solid 1px white;
 }
 .blue-button span{
     
@@ -119,9 +123,9 @@ header .blue-button{
 
 .blue-button:hover{
     background-color: white;
-    
+    border: solid 1px #1771F1;
 }
-.blue-button span:hover{
+.blue-button:hover span{
     color: #1771F1;
     
 }
@@ -168,6 +172,9 @@ header .blue-button{
     padding-bottom: 40px;
 
 }
+header .white-button span{
+    font-size: 18px;
+}
 .border .blue-button{
     text-align: center;
     padding: 5px;
@@ -184,8 +191,8 @@ header .blue-button{
     transition: 1s;
     padding: 15px;
     border-radius: 30px;
-    transition: 1s;
-    
+    transition: 0.5s;
+    cursor:pointer;
 }
 .white-button:hover{
     background-color: #1771F1;
@@ -353,15 +360,36 @@ select{
     outline: none;
 
 }
-#menu-list.open{
-    display:inline-block;
+.menu-list{
+    display:block;
     position: absolute;
     top:100px;
+    left: 0;
+    height: 0;
+    overflow: hidden;
     
+    width: 99%;
+    
+    padding: 5px;
+    transition:ease-in-out 1s;
+}
+.menu-list.open{
+    height: 75px;
     background-color: white;
     border: solid 1px #1771F1;
-    padding: 10px;
 }
+.menu-list ul li h3{
+    font-size: 18px;
+    color:#1771F1;
+}
+.menu-list ul{
+    margin: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
 .header-buttons{
     display: flex;
     gap:10px;
@@ -369,10 +397,7 @@ select{
 .blocks{
     display: block;
 }
-.menu-list{
-    display: none;
-    margin: auto 0px;
-}
+
 .help{
     display: none;
 }
@@ -459,6 +484,7 @@ select{
         display: flex;
         gap:5px;
     }
+    
 }
 
 @media(min-width:1024px){
@@ -506,6 +532,7 @@ select{
         margin: 0 2px;
         position: relative;
     }
+    
     .find-panel{
         width: 95%;
     }
@@ -569,6 +596,26 @@ select{
         display: grid;
         grid-template-columns: 1fr 1fr;
 
+        
+    }
+    #menu-list ul li h3{
+        font-size: 16px;
+        color: #332E2E;
+        animation: none;
+    }
+    .menu-list{
+        display: block;
+        margin: auto 0px;
+        position: relative;
+        height: auto;
+        top:0;
+        transition: 0s;
+    }
+    .menu-list ul li{
+        list-style:none;
+        display: inline-table;
+        margin: 0 2px;
+        position: relative;
         
     }
 }
